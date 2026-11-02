@@ -1,24 +1,18 @@
 {
-  "name": "web-dev-labs",
+  "name": "movie-watch-list",
   "version": "1.0.0",
-  "description": "",
-  "main": "lab2.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mazenkandil/web-dev-labs.git"
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "6.0.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Mazenkandil/web-dev-labs/issues"
-  },
-  "homepage": "https://github.com/Mazenkandil/web-dev-labs#readme",
-  "devDependencies": {
-    "typescript": "^7.0.2"
-  }
+  "devDependencies": {}
 }
