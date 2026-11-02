@@ -1,0 +1,24 @@
+{
+  "name": "web-dev-labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lab2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mazenkandil/web-dev-labs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mazenkandil/web-dev-labs/issues"
+  },
+  "homepage": "https://github.com/Mazenkandil/web-dev-labs#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
